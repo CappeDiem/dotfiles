@@ -34,7 +34,7 @@ zstyle :compinstall filename '/home/cappe/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-path+=('/home/cappe/.local/bin')
+path+=('~/.local/bin')
 
 eval $(thefuck --alias)
 
