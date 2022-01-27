@@ -36,6 +36,4 @@ compinit
 # End of lines added by compinstall
 path+=('/home/cappe/.local/bin')
 
-eval $(thefuck --alias)
-
 source ~/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
