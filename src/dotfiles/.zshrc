@@ -11,8 +11,9 @@ zstyle ':vcs_info:git*' unstagedstr "%{$fg[red]%}*"
 
 zstyle ':vcs_info:*' formats " %s(%{$fg[green]%}%c%u%b%{$fg[white]%})"
 
-RPS1="%*"
-PS1="%F{cyan}%n%f:%~\$vcs_info_msg_0_ %f$ "
+#RPS1="%*"
+PS1="%* %F{cyan}%n%f%F{yellow}@%f%F{green}%m%f:%~\$vcs_info_msg_0_ %f$
+%F{cyan}>%f "
 
 # Basic auto/tab complete:
 autoload -U compinit
