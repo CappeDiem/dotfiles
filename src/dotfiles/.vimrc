@@ -3,4 +3,4 @@ set numberwidth=3
 set number
 hi LineNr ctermfg=grey
 syntax on
-colorscheme onedark
+"colorscheme onedark
